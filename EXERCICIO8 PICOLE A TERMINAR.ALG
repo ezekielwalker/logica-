@@ -1,0 +1,36 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 13/08/2020
+Var
+VENDAS1,VENDAS2, VENDAS3, TA: REAL
+PICOLE1, PICOLE2, PICOLE3: REAL
+
+
+
+Inicio
+ESCREVA("VENDAS DO PICOLE 1 : ")
+LEIA(PICOLE1)
+ESCREVA (" VENDAS DO PICOLE 2 : ")
+LEIA(PICOLE2 )
+ESCREVA ("VENDAS DO PICOLE 3 : ")
+LEIA(PICOLE3)
+
+VENDAS1:= PICOLE1 * 0,50
+ESCREVA("A QUANTIDADE VENDIDA DO PRIMEIRO PICOLE FOI : ", VENDAS1)
+
+VENDAS2:= PICOLE2 * 0,60
+ESCREVA("A QUANTIDADE VENDIDA DO SEGUNDO PICOLE FOI : ", VENDAS2)
+
+VENDAS3:= PICOLE3 * 0,75
+ESCREVA("A QUANTIDADE VENDIDA DO TERCEIRO PICOLE FOI : ", VENDAS3)
+
+TA:= VENDAS1 + VENDAS2 + VENDAS3
+
+
+ESCREVAL("O TOTAL ARRECADADO É : ", TA )
+
+
+Fimalgoritmo
